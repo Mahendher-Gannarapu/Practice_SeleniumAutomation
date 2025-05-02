@@ -15,6 +15,7 @@ public class Verify_Header {
         WebDriver driver = new ChromeDriver();
         driver.get("https://awesomeqa.com/hr/web/index.php/auth/login");
         driver.manage().window().maximize();
+
         System.out.println(driver.getCurrentUrl());
         System.out.println(driver.getTitle());
 
