@@ -35,6 +35,7 @@ public class Verify_Appointment_Username_Password {
         WebElement button = driver.findElement(By.id("btn-login"));
         button.click();
 
+        Thread.sleep(3000);
         assertThat(driver.getCurrentUrl()).isEqualTo("https://katalon-demo-cura.herokuapp.com/#appointment");
         Thread.sleep(3000);
 
