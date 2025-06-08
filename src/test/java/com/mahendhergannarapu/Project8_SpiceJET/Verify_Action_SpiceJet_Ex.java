@@ -1,0 +1,33 @@
+package com.mahendhergannarapu.Project8_SpiceJET;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class Verify_Action_SpiceJet_Ex {
+
+    @Test
+    public void test_Action_Keyboard() throws InterruptedException {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--start-maximized");
+//      options.addArguments("--incognito");
+
+        WebDriver driver = new ChromeDriver(options);
+        driver.get("https://www.spicejet.com/");
+        System.out.println(driver.getTitle());
+        System.out.println(driver.getCurrentUrl());
+
+        WebElement from_input = driver.findElement(By.xpath("//div[@data-testid=\"to-testID-origin\"]/div/div/input"));
+ //       from_input.sendKeys("Hyderabad");
+
+        Actions actions = new Actions(driver);
+        actions.moveToElement(from_input).click().sendKeys("HYD").build().perform();
+
+        Thread.sleep(3000);
+        driver.quit();
+    }
+}
