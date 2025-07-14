@@ -25,7 +25,7 @@ public class Verify_Scroll_down_Using_Action_Class {
         //Wait until the element is visible
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@data-cy='closeModal']")));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));
-
+// //div[@id='NFDGdflt26_SbOfrtBNNR42t_0_63a3173be4968000133addcd']//div[@id='NFDGdflt26_Sb42Ofr_rMOvE2']//*[name()='svg']//*[name()='path' and @id='NFDGdflt26_Sb42Ofr_rMOvE2']
         Actions actions = new Actions(driver);
         actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).build().perform();
         System.out.println("ScrollDown");

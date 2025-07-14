@@ -1,5 +1,3 @@
-//How do you iterate over a Map in Java?
-// Using entrySet() with a for-each loop
 package com.mahendhergannarapu.CAP_GEMINI_Practice;
 
 import org.openqa.selenium.WebDriver;
