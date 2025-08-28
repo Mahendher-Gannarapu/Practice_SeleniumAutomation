@@ -1,4 +1,4 @@
-package com.mahendhergannarapu.TestingAcademy;
+package com.mahendhergannarapu.TestingAcademy_Practices;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
