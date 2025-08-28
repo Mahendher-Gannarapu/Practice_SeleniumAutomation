@@ -1,4 +1,4 @@
-package com.mahendhergannarapu.Practice;
+package com.mahendhergannarapu.TakeScreenshots;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;

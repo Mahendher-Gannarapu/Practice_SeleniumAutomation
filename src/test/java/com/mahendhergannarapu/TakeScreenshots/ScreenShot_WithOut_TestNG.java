@@ -1,4 +1,4 @@
-package com.mahendhergannarapu.Practice;
+package com.mahendhergannarapu.TakeScreenshots;
 
 import java.io.File;
 import java.io.IOException;

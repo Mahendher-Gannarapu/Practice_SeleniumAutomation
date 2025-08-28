@@ -34,11 +34,6 @@ public class VerifyHeaderEx {
             throw new Exception("Heading Not Found");
         }
 
-
-
-
-
-
         Thread.sleep(3000);
         driver.quit();
 

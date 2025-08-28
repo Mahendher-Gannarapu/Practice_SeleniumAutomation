@@ -1,4 +1,4 @@
-package com.mahendhergannarapu.Practice;
+package com.mahendhergannarapu.TakeScreenshots;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

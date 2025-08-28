@@ -1,5 +1,5 @@
 //Capture Screenshot if Test Case Passes or Fails
-package com.mahendhergannarapu.Practice;
+package com.mahendhergannarapu.TakeScreenshots;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;

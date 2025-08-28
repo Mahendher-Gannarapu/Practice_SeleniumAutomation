@@ -1,5 +1,5 @@
 // Capture screenshot for whole page using javaprogram
-package com.mahendhergannarapu.Practice;
+package com.mahendhergannarapu.TakeScreenshots;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
